@@ -17,25 +17,49 @@ Aplikasi ini adalah aplikasi yang gratis untuk digunakan, namun jika anda ingin 
 </ol>
 
 # User Guide
-<b>Instalation</b>
+<h2>Local Instalation</h2>
 <ol>
 	<li>Download XAMPP <a href="https://www.apachefriends.org/download.html" target="_blank">Disini</a> dan install</li>
-	<li>Jalankan XAMPP Control Panel dan Klik Start(Mulai) pada <b>Apache</a> dan <b>Mysql</b></li>
+	<li>Jalankan XAMPP Control Panel dan Klik Start(Mulai) pada <b>Apache</b> dan <b>Mysql</b></li>
 	<li>Copy File <b>pilketos-master.zip</b> ke Folder <b>C://xampp/htdocs/</b> Kemudian Extract</li>
 </ol>
 <br/>
-<b>Creating Database</b>
+<h2>Creating Database</h2>
 <ol>
 	<li>Masuk ke Browser kemudian tulis di Address Bar http://localhost/phpmyadmin</li>
 	<li>Buat Database dengan Nama <b>db_pilketos</b></li>
 	<li>Import Database <b>db_pilketos.sql</b> <a href="https://www.domainesia.com/panduan/cara-import-database-mysql-di-phpmyadmin/" target="_blank">Tutorial Disini</a></li>
 </ol>
 <br/>
-<b>Pilketos Konfiguration</b>
-<ol>
-	<li></li>
-</ol>
-
+<h2>Pilketos Konfiguration</h2>
+<b>Konfigurasi Database</b>
+<ul>
+	<li>Edit File <b>database.php</b> yang ada pada Folder <b>application/config/</b></li>
+	<li>Kemudian Pastikan <b>Hostname</b>nya Bernilai <b>localhost</b></li>
+	<li><b>Username</b> bernilai <b>root</b></li>
+	<li><b>Password</b> dibiarkan <b>kosong</b></li>
+	<li>dan <b>Database</b> bernilai <b>db_pilketos</b> <b>Note: <i>Sesuaikan dengan nama database yang Dibuat Tadi</i></b></li>
+	<li>Simpan File</li>
+		
+</ul>
+<b>Konfigurasi Base URL</b>
+<ul>
+	<li>Edit File <b>config.php</b> yang ada pada Folder <b>application/config/</b></li>
+	<li>Kemudian pastikan <b>variable $config['base_url']</b> bernilai <b>'http://localhost/pilketos/</b></li>
+	<li>Simpan File</li>
+</ul>
+<br/>
+<h2>Akses Aplikasi</h2>
+<b>Akses Admin</b>
+<ul> 
+	<li>Masuk ke Browser kemudian tulis di address bar <b>http://localhost/pilketos/index.php/admin/</b></li>
+	<li>Login dengan menggunakan <b>Username = admin</b> dan <b>Password = admin</b></li> 
+</ul>
+<b>Akses User (DPT)</b>
+<ul> 
+	<li>Masuk Ke Browser kemudian tulis di address bar <b>http://localhost/pilketos</b></li>
+	<li>Login dengan menggunakan <b>Username dan Password = NISN</b> DPT yang bersangkutan, telah di INPUT oleh Admin sebelumnya</li>
+</ul>
 
 
 
