@@ -16,3 +16,26 @@ Aplikasi ini adalah aplikasi yang gratis untuk digunakan, namun jika anda ingin 
   <li><b>Laporan Pilketos</b> (Dengan Fitur ini anda dapat Mengunduh Laporan Pemilihan Ketua OSIS)</li>
 </ol>
 
+# User Guide
+<b>Instalation</b>
+<ol>
+	<li>Download XAMPP <a href="https://www.apachefriends.org/download.html" target="_blank">Disini</a> dan install</li>
+	<li>Jalankan XAMPP Control Panel dan Klik Start(Mulai) pada <b>Apache</a> dan <b>Mysql</b></li>
+	<li>Copy File <b>pilketos-master.zip</b> ke Folder <b>C://xampp/htdocs/</b> Kemudian Extract</li>
+</ol>
+<br/>
+<b>Creating Database</b>
+<ol>
+	<li>Masuk ke Browser kemudian tulis di Address Bar http://localhost/phpmyadmin</li>
+	<li>Buat Database dengan Nama <b>db_pilketos</b></li>
+	<li>Import Database <b>db_pilketos.sql</b> <a href="https://www.domainesia.com/panduan/cara-import-database-mysql-di-phpmyadmin/" target="_blank">Tutorial Disini</a></li>
+</ol>
+<br/>
+<b>Pilketos Konfiguration</b>
+<ol>
+	<li></li>
+</ol>
+
+
+
+
