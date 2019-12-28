@@ -58,7 +58,7 @@ Aplikasi ini adalah aplikasi yang gratis untuk digunakan, namun jika anda ingin 
 <b>Akses User (DPT)</b>
 <ul> 
 	<li>Masuk Ke Browser kemudian tulis di address bar <b>http://localhost/pilketos</b></li>
-	<li>Login dengan menggunakan <b>Username dan Password = NISN</b> DPT yang bersangkutan, telah di INPUT oleh Admin sebelumnya</li>
+	<li>Login dengan menggunakan <b>Username dan Password = NISN</b> DPT yang bersangkutan, yang telah di INPUT oleh Admin sebelumnya</li>
 </ul>
 
 
